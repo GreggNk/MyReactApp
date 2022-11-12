@@ -3,7 +3,6 @@ package com.myApp.testingApp;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -20,15 +19,4 @@ public class ScenarioService {
         return scenarios;
     }
 
-    // public String getByKey(String key) {
-    // // String tempName;
-    // for (int i = 0; i < scenarios().size(); i++) {
-    // if (scenarios().get(i).getKey() == key) {
-    // tempName = scenarios().get(i).getName();
-    // } else {
-    //
-    // }
-    // }
-    // return tempName;
-    // }
 }
